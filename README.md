@@ -11,11 +11,12 @@
 ### Алгоритм решения
 
 1. Запросить у пользователя ввести натуральное число N (количество чисел в списке) + проеверка
-2. Найти первые N степеней 2
-3. Сформировать список из первых N степеней 2
-4. Вывести список на экран
+2. Сформировать список из первых N степеней 2
+3. Вывести список на экран
 
 ### Тестирование
+<img width="870" height="42" alt="Lab1_Task1_SC1" src="https://github.com/user-attachments/assets/9ae45682-3c97-403b-9a2c-51e80666c985" />
+<img width="595" height="137" alt="Lab1_Task1_SC2" src="https://github.com/user-attachments/assets/c96ff03e-6ab5-4413-8071-9ef0f2b0e69f" />
 
 
 # Задание 2
@@ -33,6 +34,8 @@
 3. Вывести первую цифру числа на экран
 
 ### Тестирование
+<img width="275" height="46" alt="Lab1_Task2_SC1" src="https://github.com/user-attachments/assets/d963d53c-61f2-4ce8-8fd7-011189aee74a" />
+<img width="462" height="133" alt="Lab1_Task2_SC2" src="https://github.com/user-attachments/assets/8e106630-90c3-4cf1-af07-3067f93dd6ad" />
 
 
 # Задание 3
@@ -52,6 +55,7 @@
 
 
 ### Тестирование
+<img width="466" height="126" alt="Lab1_Task3_SC1" src="https://github.com/user-attachments/assets/456a5bdd-2316-40d2-aa77-b6413f9b6bf1" />
 
 
 
