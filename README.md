@@ -1,4 +1,4 @@
-<img width="859" height="115" alt="Screenshot_1" src="https://github.com/user-attachments/assets/7288ada7-7958-4a14-a752-f7e26b4877a5" /># Фролов Дмитрий КМБ Лабораторная №1
+# Фролов Дмитрий КМБ Лабораторная №1
 
 # Задание 1
 
