@@ -1,4 +1,4 @@
-# Фролов Дмитрий КМБ Лабораторная №1
+<img width="859" height="115" alt="Screenshot_1" src="https://github.com/user-attachments/assets/7288ada7-7958-4a14-a752-f7e26b4877a5" /># Фролов Дмитрий КМБ Лабораторная №1
 
 # Задание 1
 
@@ -60,7 +60,13 @@
 
 
 ### Тестирование
-<img width="466" height="126" alt="Lab1_Task3_SC1" src="https://github.com/user-attachments/assets/456a5bdd-2316-40d2-aa77-b6413f9b6bf1" />
+<img width="859" height="115" alt="Screenshot_1" src="https://github.com/user-attachments/assets/47ce3410-8dcb-4a21-9346-23502a5b6b07" />
+<img width="846" height="105" alt="Screenshot_2" src="https://github.com/user-attachments/assets/75f8f746-3ef8-4ac6-8c3e-fef1f8e3146a" />
+<img width="851" height="111" alt="Screenshot_3" src="https://github.com/user-attachments/assets/cd0f80f2-6856-4f39-bf01-638e07fc23e1" />
+<img width="845" height="110" alt="Screenshot_4" src="https://github.com/user-attachments/assets/033f69bc-4ad1-491e-ad86-1af6c566324c" />
+<img width="899" height="93" alt="Screenshot_5" src="https://github.com/user-attachments/assets/23d8178d-98a6-4b06-a05d-a5ed322ff81c" />
+<img width="929" height="102" alt="Screenshot_6" src="https://github.com/user-attachments/assets/8d32e22c-c54e-41d2-b98d-aaf7755c7bb4" />
+
 
 
 
