@@ -10,7 +10,7 @@
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 100,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
@@ -24,7 +24,7 @@
               "RelativeDocumentMoniker": "Lab1_Task3\\Program.fs",
               "ToolTip": "C:\\Users\\Rage\\Desktop\\\u042F\u041F\\lab 1\\Lab1\\Lab1_Task3\\Lab1_Task3\\Program.fs",
               "RelativeToolTip": "Lab1_Task3\\Program.fs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADEAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFQAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-02-23T11:51:56.601Z",
               "EditorCaption": ""

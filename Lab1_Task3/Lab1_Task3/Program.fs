@@ -1,7 +1,27 @@
 ﻿open System
 
-//Свой тип данных
+//Re - действительная часть; Im - мнимая часть)
 type Complex = {Re: float; Im: float}
+
+let rec Read_Float () =
+    let input = Console.ReadLine()
+    let succes, n = Double.TryParse(input)
+
+    if succes then
+        n
+    else
+        printf "Ошибка: Должно быть введено число. Повторите ввод:"
+        Read_Float ()
+
+let rec Read_Natural () =
+    let input = Console.ReadLine()
+    let succes, n = Int32.TryParse(input)
+
+    if succes then
+        n
+    else
+        printf "Ошибка: Должно быть введено число. Повторите ввод:"
+        Read_Natural ()
 
 //(a+bi) + (c+di) = (a+c) + (b+d)i
 let add s1 s2 = 
@@ -37,20 +57,40 @@ let pow s n =
 
 [<EntryPoint>]
 let main arg =
-    let s1 = {Re = 5.0; Im = 2.0}
-    let s2 = {Re = 2.0; Im = -1.0}
-    
-    let sum = add s1 s2
-    let diff = sub s1 s2
-    let prod = mul s1 s2
-    let atti = div s1 s2
-    let step = pow s1 2
+    printf "Введите действительну часть первого числа: "
+    let s1_Re = Read_Float()
+    printf "Введите мнимую часть первого числа: "
+    let s1_Im = Read_Float()
+    let s1 = {Re = s1_Re; Im = s1_Im}
 
-    printfn "Первое число: %.1f + %.1fi" s1.Re s1.Im
-    printfn "Второе число: %.1f + %.1fi" s2.Re s2.Im
-    printfn "Сумма: %.1f + %.1fi" sum.Re sum.Im
-    printfn "Разнгсть: %.1f + %.1fi" diff.Re diff.Im
-    printfn "Произведение: %.1f + %.1fi" prod.Re prod.Im
-    printfn "Частное: %.1f + %.1fi" atti.Re atti.Im
-    printfn "Возведение первого числа во вторую степень: %.1f + %.1fi" step.Re step.Im
+    printf"Выберите действие: 1 - Сумма, 2 - Разность, 3 - Произведение, 4 - Деление, 5 - Возведение в степень: "
+    let operation = Read_Natural()
+
+    let s2, n =
+        if operation = 5 then
+            printf "Введите степень, в которую нужно возвести: "
+            let step = Read_Natural()
+            { Re = 0.0; Im = 0.0 }, step
+        else if operation >= 1 &&  operation <= 4 then
+            printf "Введите действительну часть второго числа: "
+            let s2_Re = Read_Float()
+            printf "Введите мнимую часть второго числа: "
+            let s2_Im = Read_Float()
+            {Re = s2_Re; Im = s2_Im}, 0
+        else
+            failwith "Некоректный выбор операции"
+
+    let result =
+        match operation with 
+            | 1 -> add s1 s2
+            | 2 -> sub s1 s2
+            | 3 -> mul s1 s2
+            | 4 -> div s1 s2
+            | 5 -> pow s1 n
+    
+    if result.Im >= 0 then
+        printfn "Результат: %.1f + %.1fi" result.Re result.Im
+    else
+        printfn "Результат: %.1f - %.1fi" result.Re (abs result.Im)
+
     0

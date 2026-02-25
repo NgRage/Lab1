@@ -27,3 +27,4 @@ C:\Users\Rage\Desktop\ЯП\lab 1\Lab1\Lab1_Task3\Lab1_Task3\obj\Debug\net8.0\ref
 C:\Users\Rage\Desktop\ЯП\lab 1\Lab1\Lab1_Task3\Lab1_Task3\obj\Debug\net8.0\Lab1_Task3.pdb
 C:\Users\Rage\Desktop\ЯП\lab 1\Lab1\Lab1_Task3\Lab1_Task3\obj\Debug\net8.0\Lab1_Task3.genruntimeconfig.cache
 C:\Users\Rage\Desktop\ЯП\lab 1\Lab1\Lab1_Task3\Lab1_Task3\obj\Debug\net8.0\ref\Lab1_Task3.dll
+C:\Users\Rage\Desktop\ЯП\lab 1\Lab1\Lab1_Task3\Lab1_Task3\obj\Debug\net8.0\Lab1_Task3.sourcelink.json
